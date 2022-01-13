@@ -1,0 +1,39 @@
+{
+  "name": "reactreduxpractice",
+  "version": "1.0.0",
+  "description": "Practice ecommerce application in React and Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hi it me\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "webpack --mode development && node server/server.js",
+    "build": "webpack --mode production"
+  },
+  "author": "Alexis Smith",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "css-loader": "^6.5.1",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "mini-css-extract-plugin": "^2.4.7",
+    "node-sass": "^7.0.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^6.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
