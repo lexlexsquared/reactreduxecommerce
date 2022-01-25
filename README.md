@@ -4,4 +4,4 @@ Creating an ecommerce App with SASS, React, Redux, Firebase, OAuth, Stripe to re
 
 Created using custom webpack.
 
-Runs on 8080 with npm run start:dev
+Runs on 8080 with npm run start:dev for hot module reloading.
